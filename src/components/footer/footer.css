@@ -1,0 +1,21 @@
+.footer{
+    background-color: var(--dark-yellow);
+    padding: 40px;
+    
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer h6{
+    color: var(--dark-red);
+}
+
+.footer ul li{
+    color: white;
+}
+
+i{
+    color: white;
+}
