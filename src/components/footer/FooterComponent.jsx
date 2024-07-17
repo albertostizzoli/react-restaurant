@@ -15,7 +15,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="col-12 col-md-4">
-                    <ul className="links">
+                    <ul>
                         <li><h6>LINKS</h6></li>
                         <li>Home</li>
                         <li>Chi Siamo</li>
