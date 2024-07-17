@@ -9,9 +9,9 @@ function Footer() {
                 <div className="col-12 col-md-4">
                     <ul>
                         <li><h6>CONTATTACI</h6></li>
-                        <li>Indirizzo: Via Giulio Cesare 12</li>
-                        <li>Mail: pepperone@example.com</li>
-                        <li>Telefono: 555-123456</li>
+                        <li>INDIRIZZO: Via Giulio Cesare 12</li>
+                        <li>MAIL: pepperone@example.com</li>
+                        <li>TELEFONO: 555-123456</li>
                     </ul>
                 </div>
                 <div className="col-12 col-md-4">

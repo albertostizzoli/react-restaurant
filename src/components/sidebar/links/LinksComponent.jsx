@@ -35,11 +35,11 @@ function Links() {
             {items.map((item) => (
                 <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}>{item}</motion.a>
             ))}
-            <motion.div className="d-flex g-1" variants={itemVariants}>
-                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-facebook fa-2x"></i></motion.a>
-                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-instagram fa-2x"></i></motion.a>
-                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-x-twitter fa-2x"></i></motion.a>
-                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-youtube fa-2x"></i></motion.a>
+            <motion.div className="social" variants={itemVariants}>
+                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-facebook"></i></motion.a>
+                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-instagram"></i></motion.a>
+                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-x-twitter"></i></motion.a>
+                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-youtube"></i></motion.a>
             </motion.div>
         </motion.div>
     )

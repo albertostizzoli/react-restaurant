@@ -18,7 +18,6 @@ function Navbar() {
                 </div>
             </div>
         </div>
-
     )
 }
 
