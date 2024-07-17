@@ -4,7 +4,7 @@
     color: white;
 }
 
-.wrapper{
+.title{
     margin: auto;
     width: 70%;
     display: flex;
@@ -17,18 +17,18 @@ span{
     font-size: 25px;
 }
 
-.social{
+.icons{
     display: flex;
     gap: 10px;
 }
 
 @media screen and (max-width: 576px) {
 
-    .wrapper{
+    .title{
         display: none;
     }
 
-    .social{
+    .icons{
         display: none;
     }
     
