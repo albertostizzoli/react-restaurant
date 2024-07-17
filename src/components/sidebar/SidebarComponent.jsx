@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import './sidebar.css';
+import Button from "./button/ButtonComponent";
 
 
 function Sidebar(){
@@ -30,8 +31,9 @@ function Sidebar(){
     return(
         <motion.div className="sidebar" animate={open ? 'open' : 'closed'}>
             <motion.div className="bg" variants={variants}>
-                
+
             </motion.div>
+            <Button setOpen={setOpen}></Button>
         </motion.div>
         
     )
