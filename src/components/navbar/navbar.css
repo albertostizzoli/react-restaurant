@@ -1,0 +1,23 @@
+.navbar{
+    height: 100px;
+    background-color: var(--dark-red);
+    color: white;
+}
+
+.wrapper{
+    margin: auto;
+    width: 70%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
