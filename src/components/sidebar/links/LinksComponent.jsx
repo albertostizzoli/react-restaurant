@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Links() {
 
-    const variants = {
+    const links = {
         open: {
             transition: {
                 staggerChildren: 0.01,
@@ -17,7 +17,7 @@ function Links() {
         }
     }
 
-    const itemVariants = {
+    const itemLinks = {
         open: {
             y: 0,
             opacity: 1
@@ -31,15 +31,15 @@ function Links() {
     const items = ['Home', 'Chi Siamo', 'Menu', 'Contatti']
 
     return (
-        <motion.div className="links" variants={variants}>
+        <motion.div className="links" links={links}>
             {items.map((item) => (
-                <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}>{item}</motion.a>
+                <motion.a href={`#${item}`} key={item} links={itemLinks} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}>{item}</motion.a>
             ))}
-            <motion.div className="icons" variants={itemVariants}>
-                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-facebook"></i></motion.a>
-                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-instagram"></i></motion.a>
-                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-x-twitter"></i></motion.a>
-                <motion.a href="#" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}><i className="fa-brands fa-youtube"></i></motion.a>
+            <motion.div className="icons" links={itemLinks}>
+                <motion.a href="#" whileHover={{scale: 1.4}} whileTap={{scale: 0.9}}><i className="fa-brands fa-facebook"></i></motion.a>
+                <motion.a href="#" whileHover={{scale: 1.4}} whileTap={{scale: 0.9}}><i className="fa-brands fa-instagram"></i></motion.a>
+                <motion.a href="#" whileHover={{scale: 1.4}} whileTap={{scale: 0.9}}><i className="fa-brands fa-x-twitter"></i></motion.a>
+                <motion.a href="#" whileHover={{scale: 1.4}} whileTap={{scale: 0.9}}><i className="fa-brands fa-youtube"></i></motion.a>
             </motion.div>
         </motion.div>
     )

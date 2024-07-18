@@ -30,8 +30,8 @@ function Sidebar() {
     }
 
     return (
-        <motion.div className="sidebar" animate={open ? 'open' : 'closed'}>
-            <motion.div className="bg" variants={variants}>
+        <motion.div className="side-bar" animate={open ? 'open' : 'closed'}>
+            <motion.div className="back" variants={variants}>
                 <Links></Links>
             </motion.div>
             <Button setOpen={setOpen}></Button>
