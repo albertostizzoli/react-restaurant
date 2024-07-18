@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css'
 import Navbar from './components/navbar/NavbarComponent'
+import Header from './components/header/HeaderComponent'
 import Footer from './components/footer/FooterComponent'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -13,6 +14,7 @@ function App() {
     <>
     <section>
       <Navbar></Navbar>
+      <Header></Header>
     </section>
       <section>
         <Footer></Footer>
