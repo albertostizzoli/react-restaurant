@@ -1,0 +1,53 @@
+.about {
+    padding: 20px;
+    width: 100%;
+    background-color: var(--dark-yellow);
+}
+
+.about h1 {
+    color: var(--dark-red);
+    font-size: 60px;
+}
+
+.img-block {
+    height: 250px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.image {
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-text {
+    color: white;
+    text-align: end;
+    margin-top: 20px;
+}
+
+.about-text p {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 576px){
+
+    .image{
+        margin-top: 20px;
+    }
+
+    .about-text{
+        padding-top: 20px;
+    }
+
+    .about-text p{
+        text-align: center;
+    }
+
+}
