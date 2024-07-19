@@ -1,11 +1,10 @@
 .about {
     padding: 20px;
     width: 100%;
-    background-color: var(--dark-yellow);
 }
 
 .about h1 {
-    color: var(--dark-red);
+    color: var(--dark-yellow);
     font-size: 60px;
 }
 

@@ -11,6 +11,10 @@
   font-family: "Kanit", sans-serif;
 }
 
+body{
+  background: linear-gradient(180deg, rgb(208, 0, 0), rgba(255, 186, 8, 0.8));
+}
+
 
 a{
   text-decoration: none !important;
