@@ -31,7 +31,7 @@ function Links() {
     const items = ['Home', 'Chi Siamo', 'Menu', 'Contatti']
 
     return (
-        <motion.div className="links" links={links}>
+        <motion.div className="links d-flex flex-column justify-content-center align-items-center gap-3" links={links}>
             {items.map((item) => (
                 <motion.a href={`#${item}`} key={item} links={itemLinks} whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}>{item}</motion.a>
             ))}

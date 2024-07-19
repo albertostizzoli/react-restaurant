@@ -26,7 +26,7 @@ function Header() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6 text-left">
-                        <motion.div className="text" variants={text} initial="initial" animate="animate">
+                        <motion.div className="text d-flex flex-column justify-content-center" variants={text} initial="initial" animate="animate">
                             <motion.h1 variants={text}>PEPPERONE</motion.h1>
                             <motion.h2 variants={text}>Ristorante & Pizzeria & Cafè</motion.h2>
                             <motion.div className="buttons pt-2" variants={text}>
