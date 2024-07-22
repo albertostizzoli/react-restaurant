@@ -1,6 +1,10 @@
 import React from "react";
 import './about.css';
 import { motion } from "framer-motion";
+import Restaurant from '../../assets/img/restaurant1.jpg';
+import Meat from '../../assets/img/restaurant2.jpg';
+import Pizza from '../../assets/img/pizza.jpg';
+import Cake from '../../assets/img/cake.jpg';
 
 function About() {
 
@@ -40,12 +44,12 @@ function About() {
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <motion.div className="d-flex flex-wrap align-items-baseline justify-content-center gap-2" variants={firstBlock} initial="initial" animate="animate">
-                            <img className="img-block" src="../../src/assets/img/restaurant1.jpg" alt="Ristorante" />
-                            <img className="image" src="../../src/assets/img/restaurant2.jpg" alt="Ristorante" />
+                            <img className="img-block" src={Restaurant} alt="Ristorante" />
+                            <img className="image" src={Meat} alt="Ristorante" />
                         </motion.div>
                         <motion.div className="d-flex flex-wrap align-items-baseline justify-content-center gap-2" variants={firstBlock} initial="initial" animate="animate">
-                            <img className="image" src="../../src/assets/img/pizza.jpg" alt="Pizza" />
-                            <img className="img-block" src="../../src/assets/img/cake.jpg" alt="Torta" />
+                            <img className="image" src={Pizza} alt="Pizza" />
+                            <img className="img-block" src={Cake} alt="Torta" />
                         </motion.div>
                     </div>
                     <div className="col-12 col-md-6 about-text d-flex flex-column justify-content-center gap-2">

@@ -1,6 +1,7 @@
 import React from "react";
 import './header.css';
 import { motion } from "framer-motion";
+import Hamburger from '../../assets/img/hamburger.png';
 
 function Header() {
 
@@ -35,7 +36,7 @@ function Header() {
                         </motion.div>
                     </div>
                     <div className="col-md-6">
-                        <img className="hamburger img-fluid" src="../../src/assets/img/hamburger.png" alt="Hamburger" />
+                        <img className="hamburger img-fluid" src={Hamburger} alt="Hamburger" />
                     </div>
                 </div>
             </div>
