@@ -257,6 +257,159 @@
         ],
         "price": 21.00,
         "category": "Secondi"
-    }
+    },
+    {
+        "id": 21,
+        "name": "Classic Beef Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Manzo",
+          "Lattuga",
+          "Pomodoro",
+          "Cipolla",
+          "Formaggio Cheddar",
+          "Ketchup",
+          "Maionese"
+        ],
+        "price": 10.00,
+        "category": "Hamburger"
+      },
+      {
+        "id": 22,
+        "name": "Cheeseburger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Manzo",
+          "Formaggio Cheddar",
+          "Lattuga",
+          "Pomodoro",
+          "Cipolla",
+          "Ketchup",
+          "Maionese"
+        ],
+        "price": 11.00,
+        "category": "Hamburger"
+      },
+      {
+        "id": 23,
+        "name": "Bacon Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Manzo",
+          "Bacon",
+          "Formaggio Cheddar",
+          "Lattuga",
+          "Pomodoro",
+          "Cipolla",
+          "Maionese"
+        ],
+        "price": 12.50,
+        "category": "Hamburger"
+      },
+      {
+        "id": 24,
+        "name": "Veggie Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Burger di Verdure",
+          "Lattuga",
+          "Pomodoro",
+          "Cipolla",
+          "Avocado",
+          "Maionese Vegana"
+        ],
+        "price": 9.50,
+        "category": "Hamburger"
+      },
+      {
+        "id": 25,
+        "name": "Chicken Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Petto di Pollo",
+          "Lattuga",
+          "Pomodoro",
+          "Maionese",
+          "Formaggio Svizzero"
+        ],
+        "price": 10.50,
+        "category": "Hamburger"
+      },
+      {
+        "id": 26,
+        "name": "BBQ Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Manzo",
+          "Formaggio Cheddar",
+          "Cipolle Caramellate",
+          "Salsa BBQ",
+          "Lattuga",
+          "Pomodoro"
+        ],
+        "price": 12.00,
+        "category": "Hamburger"
+      },
+      {
+        "id": 27,
+        "name": "Mushroom Swiss Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Manzo",
+          "Funghi Saltati",
+          "Formaggio Svizzero",
+          "Lattuga",
+          "Pomodoro",
+          "Maionese"
+        ],
+        "price": 11.50,
+        "category": "Hamburger"
+      },
+      {
+        "id": 28,
+        "name": "Spicy Jalapeno Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Manzo",
+          "Formaggio Pepper Jack",
+          "Jalapeno",
+          "Lattuga",
+          "Pomodoro",
+          "Maionese Piccante"
+        ],
+        "price": 11.00,
+        "category": "Hamburger"
+      },
+      {
+        "id": 29,
+        "name": "Blue Cheese Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Manzo",
+          "Formaggio Blue",
+          "Lattuga",
+          "Pomodoro",
+          "Cipolla",
+          "Maionese"
+        ],
+        "price": 12.00,
+        "category": "Hamburger"
+      },
+      {
+        "id": 30,
+        "name": "Avocado Burger",
+        "ingredients": [
+          "Pane per Hamburger",
+          "Manzo",
+          "Avocado",
+          "Formaggio Cheddar",
+          "Lattuga",
+          "Pomodoro",
+          "Maionese"
+        ],
+        "price": 11.50,
+        "category": "Hamburger"
+      }
 ]
+  
 
