@@ -412,6 +412,138 @@
     },
     {
         "id": 31,
+        "name": "Margherita",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella",
+            "Basilico",
+            "Olio d'Oliva",
+            "Sale"
+        ],
+        "price": 8.00,
+        "category": "Pizze"
+    },
+    {
+        "id": 32,
+        "name": "Diavola",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella",
+            "Salame Piccante",
+            "Olio d'Oliva",
+            "Peperoncino"
+        ],
+        "price": 9.00,
+        "category": "Pizze"
+    },
+    {
+        "id": 33,
+        "name": "Quattro Stagioni",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto Cotto",
+            "Funghi",
+            "Carciofi",
+            "Olive"
+        ],
+        "price": 10.00,
+        "category": "Pizze"
+    },
+    {
+        "id": 34,
+        "name": "Capricciosa",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto Cotto",
+            "Funghi",
+            "Carciofi",
+            "Olive",
+            "Uova"
+        ],
+        "price": 10.50,
+        "category": "Pizze"
+    },
+    {
+        "id": 35,
+        "name": "Quattro Formaggi",
+        "ingredients": [
+            "Mozzarella",
+            "Gorgonzola",
+            "Fontina",
+            "Parmigiano Reggiano"
+        ],
+        "price": 9.50,
+        "category": "Pizze"
+    },
+    {
+        "id": 36,
+        "name": "Ortolana",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella",
+            "Zucchine",
+            "Melanzane",
+            "Peperoni",
+            "Olio d'Oliva"
+        ],
+        "price": 9.00,
+        "category": "Pizze"
+    },
+    {
+        "id": 37,
+        "name": "Tonno e Cipolle",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella",
+            "Tonno",
+            "Cipolle",
+            "Olio d'Oliva"
+        ],
+        "price": 9.50,
+        "category": "Pizze"
+    },
+    {
+        "id": 38,
+        "name": "Boscaiola",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella",
+            "Salsiccia",
+            "Funghi",
+            "Olio d'Oliva"
+        ],
+        "price": 10.00,
+        "category": "Pizze"
+    },
+    {
+        "id": 39,
+        "name": "Bufalina",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella di Bufala",
+            "Basilico",
+            "Olio d'Oliva",
+            "Sale"
+        ],
+        "price": 10.50,
+        "category": "Pizze"
+    },
+    {
+        "id": 40,
+        "name": "Hawaiian",
+        "ingredients": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto Cotto",
+            "Ananas"
+        ],
+        "price": 9.00,
+        "category": "Pizze"
+    },
+    {
+        "id": 41,
         "name": "Tiramisù",
         "ingredients": [
             "Savoiardi",
@@ -425,7 +557,7 @@
         "category": "Desserts"
     },
     {
-        "id": 32,
+        "id": 42,
         "name": "Panna Cotta",
         "ingredients": [
             "Panna",
@@ -438,7 +570,7 @@
         "category": "Desserts"
     },
     {
-        "id": 33,
+        "id": 43,
         "name": "Cheesecake",
         "ingredients": [
             "Formaggio Crema",
@@ -452,7 +584,7 @@
         "category": "Desserts"
     },
     {
-        "id": 34,
+        "id": 44,
         "name": "Gelato Artigianale",
         "ingredients": [
             "Latte",
@@ -465,7 +597,7 @@
         "category": "Desserts"
     },
     {
-        "id": 35,
+        "id": 45,
         "name": "Cannoli Siciliani",
         "ingredients": [
             "Ricotta",
@@ -478,7 +610,7 @@
         "category": "Desserts"
     },
     {
-        "id": 36,
+        "id": 46,
         "name": "Profiteroles",
         "ingredients": [
             "Pasta Choux",
@@ -490,7 +622,7 @@
         "category": "Desserts"
     },
     {
-        "id": 37,
+        "id": 47,
         "name": "Torta Caprese",
         "ingredients": [
             "Mandorle",
@@ -503,7 +635,7 @@
         "category": "Desserts"
     },
     {
-        "id": 38,
+        "id": 48,
         "name": "Zuppa Inglese",
         "ingredients": [
             "Pan di Spagna",
@@ -515,7 +647,7 @@
         "category": "Desserts"
     },
     {
-        "id": 39,
+        "id": 49,
         "name": "Babà al Rum",
         "ingredients": [
             "Farina",
@@ -529,7 +661,7 @@
         "category": "Desserts"
     },
     {
-        "id": 40,
+        "id": 50,
         "name": "Millefoglie",
         "ingredients": [
             "Pasta Sfoglia",
@@ -540,63 +672,63 @@
         "category": "Desserts"
     },
     {
-        "id": 41,
+        "id": 51,
         "name": "Acqua Naturale",
         "price": 1.50,
         "category": "Bevande"
-      },
-      {
-        "id": 42,
+    },
+    {
+        "id": 52,
         "name": "Acqua Frizzante",
         "price": 1.50,
         "category": "Bevande"
-      },
-      {
-        "id": 43,
+    },
+    {
+        "id": 53,
         "name": "Coca-Cola",
         "price": 2.50,
         "category": "Bevande"
-      },
-      {
-        "id": 44,
+    },
+    {
+        "id": 54,
         "name": "Fanta",
         "price": 2.50,
         "category": "Bevande"
-      },
-      {
-        "id": 45,
+    },
+    {
+        "id": 55,
         "name": "Sprite",
         "price": 2.50,
         "category": "Bevande"
-      },
-      {
-        "id": 46,
+    },
+    {
+        "id": 56,
         "name": "Birra",
         "price": 5.00,
         "category": "Bevande"
-      },
-      {
-        "id": 47,
+    },
+    {
+        "id": 57,
         "name": "Vino Rosso",
         "price": 6.00,
         "category": "Bevande"
-      },
-      {
-        "id": 48,
+    },
+    {
+        "id": 58,
         "name": "Vino Bianco",
         "price": 6.00,
         "category": "Bevande"
-      },
-      {
-        "id": 49,
+    },
+    {
+        "id": 59,
         "name": "Caffè Espresso",
         "price": 1.50,
         "category": "Bevande"
-      },
-      {
-        "id": 50,
+    },
+    {
+        "id": 60,
         "name": "Cappuccino",
         "price": 2.00,
         "category": "Bevande"
-      }
+    }
 ]
