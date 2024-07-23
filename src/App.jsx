@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/navbar/NavbarComponent'
 import Header from './components/header/HeaderComponent'
 import About from './components/aboutUs/AboutComponent'
+import Menu from './components/menu/MenuComponent'
 import Footer from './components/footer/FooterComponent'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -19,6 +20,9 @@ function App() {
       <main>
         <section>
           <About></About>
+        </section>
+        <section>
+          <Menu></Menu>
         </section>
       </main>
       <footer>
