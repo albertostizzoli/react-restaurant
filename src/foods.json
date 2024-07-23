@@ -1,128 +1,262 @@
 [
     {
-      "id": 1,
-      "nome": "Spaghetti alla Carbonara",
-      "ingredienti": [
-        "Spaghetti",
-        "Uova",
-        "Pancetta",
-        "Pecorino Romano",
-        "Pepe Nero"
-      ],
-      "prezzo": 12.50,
-      "categoria": "Primi"
+        "id": 1,
+        "name": "Spaghetti alla Carbonara",
+        "ingredients": [
+            "Spaghetti",
+            "Uova",
+            "Pancetta",
+            "Pecorino Romano",
+            "Pepe Nero"
+        ],
+        "price": 12.50,
+        "category": "Primi"
     },
     {
-      "id": 2,
-      "nome": "Lasagne alla Bolognese",
-      "ingredienti": [
-        "Sfoglia di Lasagna",
-        "Ragù",
-        "Besciamella",
-        "Parmigiano Reggiano"
-      ],
-      "prezzo": 14.00,
-      "categoria": "Primi"
+        "id": 2,
+        "name": "Lasagne alla Bolognese",
+        "ingredients": [
+            "Sfoglia di Lasagna",
+            "Ragù",
+            "Besciamella",
+            "Parmigiano Reggiano"
+        ],
+        "price": 14.00,
+        "category": "Primi"
     },
     {
-      "id": 3,
-      "nome": "Risotto ai Funghi",
-      "ingredienti": [
-        "Riso",
-        "Funghi",
-        "Brodo",
-        "Burro",
-        "Parmigiano Reggiano"
-      ],
-      "prezzo": 13.00,
-      "categoria": "Primi"
+        "id": 3,
+        "name": "Risotto ai Funghi",
+        "ingredients": [
+            "Riso",
+            "Funghi",
+            "Brodo",
+            "Burro",
+            "Parmigiano Reggiano"
+        ],
+        "price": 13.00,
+        "category": "Primi"
     },
     {
-      "id": 4,
-      "nome": "Penne all'Arrabbiata",
-      "ingredienti": [
-        "Penne",
-        "Pomodori",
-        "Peperoncino",
-        "Aglio",
-        "Olio d'Oliva"
-      ],
-      "prezzo": 11.00,
-      "categoria": "Primi"
+        "id": 4,
+        "name": "Penne all'Arrabbiata",
+        "ingredients": [
+            "Penne",
+            "Pomodori",
+            "Peperoncino",
+            "Aglio",
+            "Olio d'Oliva"
+        ],
+        "price": 11.00,
+        "category": "Primi"
     },
     {
-      "id": 5,
-      "nome": "Fettuccine Alfredo",
-      "ingredienti": [
-        "Fettuccine",
-        "Burro",
-        "Panna",
-        "Parmigiano Reggiano"
-      ],
-      "prezzo": 13.50,
-      "categoria": "Primi"
+        "id": 5,
+        "name": "Fettuccine Alfredo",
+        "ingredients": [
+            "Fettuccine",
+            "Burro",
+            "Panna",
+            "Parmigiano Reggiano"
+        ],
+        "price": 13.50,
+        "category": "Primi"
     },
     {
-      "id": 6,
-      "nome": "Gnocchi al Pesto",
-      "ingredienti": [
-        "Gnocchi",
-        "Basilico",
-        "Pinoli",
-        "Aglio",
-        "Parmigiano Reggiano",
-        "Olio d'Oliva"
-      ],
-      "prezzo": 12.00,
-      "categoria": "Primi"
+        "id": 6,
+        "name": "Gnocchi al Pesto",
+        "ingredients": [
+            "Gnocchi",
+            "Basilico",
+            "Pinoli",
+            "Aglio",
+            "Parmigiano Reggiano",
+            "Olio d'Oliva"
+        ],
+        "price": 12.00,
+        "category": "Primi"
     },
     {
-      "id": 7,
-      "nome": "Ravioli di Ricotta e Spinaci",
-      "ingredienti": [
-        "Ravioli",
-        "Ricotta",
-        "Spinaci",
-        "Burro",
-        "Salvia"
-      ],
-      "prezzo": 14.50,
-      "categoria": "Primi"
+        "id": 7,
+        "name": "Ravioli di Ricotta e Spinaci",
+        "ingredients": [
+            "Ravioli",
+            "Ricotta",
+            "Spinaci",
+            "Burro",
+            "Salvia"
+        ],
+        "price": 14.50,
+        "category": "Primi"
     },
     {
-      "id": 8,
-      "nome": "Tortellini in Brodo",
-      "ingredienti": [
-        "Tortellini",
-        "Brodo di Carne"
-      ],
-      "prezzo": 13.00,
-      "categoria": "Primi"
+        "id": 8,
+        "name": "Tortellini in Brodo",
+        "ingredients": [
+            "Tortellini",
+            "Brodo di Carne"
+        ],
+        "price": 13.00,
+        "category": "Primi"
     },
     {
-      "id": 9,
-      "nome": "Orecchiette con le Cime di Rapa",
-      "ingredienti": [
-        "Orecchiette",
-        "Cime di Rapa",
-        "Aglio",
-        "Olio d'Oliva",
-        "Acciughe",
-        "Peperoncino"
-      ],
-      "prezzo": 12.00,
-      "categoria": "Primi"
+        "id": 9,
+        "name": "Orecchiette con le Cime di Rapa",
+        "ingredients": [
+            "Orecchiette",
+            "Cime di Rapa",
+            "Aglio",
+            "Olio d'Oliva",
+            "Acciughe",
+            "Peperoncino"
+        ],
+        "price": 12.00,
+        "category": "Primi"
     },
     {
-      "id": 10,
-      "nome": "Tagliatelle al Ragù",
-      "ingredienti": [
-        "Tagliatelle",
-        "Ragù",
-        "Parmigiano Reggiano"
-      ],
-      "prezzo": 13.50,
-      "categoria": "Primi"
+        "id": 10,
+        "name": "Tagliatelle al Ragù",
+        "ingredients": [
+            "Tagliatelle",
+            "Ragù",
+            "Parmigiano Reggiano"
+        ],
+        "price": 13.50,
+        "category": "Primi"
+    },
+    {
+        "id": 11,
+        "name": "Bistecca alla Fiorentina",
+        "ingredients": [
+            "Bistecca di Manzo",
+            "Sale",
+            "Pepe",
+            "Rosmarino",
+            "Olio d'Oliva"
+        ],
+        "price": 25.00,
+        "category": "Secondi"
+    },
+    {
+        "id": 12,
+        "name": "Pollo alla Cacciatora",
+        "ingredients": [
+            "Pollo",
+            "Pomodori",
+            "Cipolle",
+            "Carote",
+            "Sedano",
+            "Vino Bianco"
+        ],
+        "price": 18.00,
+        "category": "Secondi"
+    },
+    {
+        "id": 13,
+        "name": "Scaloppine al Limone",
+        "ingredients": [
+            "Vitello",
+            "Limone",
+            "Burro",
+            "Farina",
+            "Vino Bianco"
+        ],
+        "price": 17.50,
+        "category": "Secondi"
+    },
+    {
+        "id": 14,
+        "name": "Pesce Spada alla Griglia",
+        "ingredients": [
+            "Pesce Spada",
+            "Olio d'Oliva",
+            "Aglio",
+            "Prezzemolo",
+            "Limone"
+        ],
+        "price": 22.00,
+        "category": "Secondi"
+    },
+    {
+        "id": 15,
+        "name": "Ossobuco alla Milanese",
+        "ingredients": [
+            "Ossobuco di Vitello",
+            "Vino Bianco",
+            "Brodo",
+            "Carote",
+            "Sedano",
+            "Cipolle"
+        ],
+        "price": 20.00,
+        "category": "Secondi"
+    },
+    {
+        "id": 16,
+        "name": "Costolette di Agnello",
+        "ingredients": [
+            "Costolette di Agnello",
+            "Rosmarino",
+            "Aglio",
+            "Olio d'Oliva",
+            "Sale",
+            "Pepe"
+        ],
+        "price": 23.00,
+        "category": "Secondi"
+    },
+    {
+        "id": 17,
+        "name": "Melanzane alla Parmigiana",
+        "ingredients": [
+            "Melanzane",
+            "Pomodori",
+            "Mozzarella",
+            "Parmigiano Reggiano",
+            "Basilico"
+        ],
+        "price": 16.00,
+        "category": "Secondi"
+    },
+    {
+        "id": 18,
+        "name": "Frittura di Calamari",
+        "ingredients": [
+            "Calamari",
+            "Farina",
+            "Olio per Friggere",
+            "Limone",
+            "Sale"
+        ],
+        "price": 19.00,
+        "category": "Secondi"
+    },
+    {
+        "id": 19,
+        "name": "Spezzatino di Manzo",
+        "ingredients": [
+            "Manzo",
+            "Patate",
+            "Carote",
+            "Cipolle",
+            "Vino Rosso",
+            "Brodo"
+        ],
+        "price": 18.50,
+        "category": "Secondi"
+    },
+    {
+        "id": 20,
+        "name": "Salmone al Forno",
+        "ingredients": [
+            "Salmone",
+            "Limone",
+            "Aglio",
+            "Prezzemolo",
+            "Olio d'Oliva"
+        ],
+        "price": 21.00,
+        "category": "Secondi"
     }
-  ]
-  
+]
+
