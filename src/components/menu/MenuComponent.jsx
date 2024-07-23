@@ -19,7 +19,7 @@ function Menu() {
     }
     return (
         <div className="menu">
-            <motion.h2 initial="initial" whileInView={animate} variants={title}>IL NOSTRO MENU</motion.h2>
+            <motion.h2 initial="initial" whileInView="animate" variants={title}>IL NOSTRO MENU</motion.h2>
         </div>
     )
 }
