@@ -1,0 +1,10 @@
+.menu{
+    width: 100%;
+    padding: 20px;
+}
+
+.menu h2{
+    color: var(--opac-yellow);
+    font-size: 60px;
+    text-align: center;
+}
