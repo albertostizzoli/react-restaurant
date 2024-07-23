@@ -538,5 +538,65 @@
         ],
         "price": 6.00,
         "category": "Desserts"
-    }
+    },
+    {
+        "id": 41,
+        "name": "Acqua Naturale",
+        "price": 1.50,
+        "category": "Bevande"
+      },
+      {
+        "id": 42,
+        "name": "Acqua Frizzante",
+        "price": 1.50,
+        "category": "Bevande"
+      },
+      {
+        "id": 43,
+        "name": "Coca-Cola",
+        "price": 2.50,
+        "category": "Bevande"
+      },
+      {
+        "id": 44,
+        "name": "Fanta",
+        "price": 2.50,
+        "category": "Bevande"
+      },
+      {
+        "id": 45,
+        "name": "Sprite",
+        "price": 2.50,
+        "category": "Bevande"
+      },
+      {
+        "id": 46,
+        "name": "Birra",
+        "price": 5.00,
+        "category": "Bevande"
+      },
+      {
+        "id": 47,
+        "name": "Vino Rosso",
+        "price": 6.00,
+        "category": "Bevande"
+      },
+      {
+        "id": 48,
+        "name": "Vino Bianco",
+        "price": 6.00,
+        "category": "Bevande"
+      },
+      {
+        "id": 49,
+        "name": "Caffè Espresso",
+        "price": 1.50,
+        "category": "Bevande"
+      },
+      {
+        "id": 50,
+        "name": "Cappuccino",
+        "price": 2.00,
+        "category": "Bevande"
+      }
 ]
