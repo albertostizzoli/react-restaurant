@@ -1,0 +1,128 @@
+[
+    {
+      "id": 1,
+      "nome": "Spaghetti alla Carbonara",
+      "ingredienti": [
+        "Spaghetti",
+        "Uova",
+        "Pancetta",
+        "Pecorino Romano",
+        "Pepe Nero"
+      ],
+      "prezzo": 12.50,
+      "categoria": "Primi"
+    },
+    {
+      "id": 2,
+      "nome": "Lasagne alla Bolognese",
+      "ingredienti": [
+        "Sfoglia di Lasagna",
+        "Ragù",
+        "Besciamella",
+        "Parmigiano Reggiano"
+      ],
+      "prezzo": 14.00,
+      "categoria": "Primi"
+    },
+    {
+      "id": 3,
+      "nome": "Risotto ai Funghi",
+      "ingredienti": [
+        "Riso",
+        "Funghi",
+        "Brodo",
+        "Burro",
+        "Parmigiano Reggiano"
+      ],
+      "prezzo": 13.00,
+      "categoria": "Primi"
+    },
+    {
+      "id": 4,
+      "nome": "Penne all'Arrabbiata",
+      "ingredienti": [
+        "Penne",
+        "Pomodori",
+        "Peperoncino",
+        "Aglio",
+        "Olio d'Oliva"
+      ],
+      "prezzo": 11.00,
+      "categoria": "Primi"
+    },
+    {
+      "id": 5,
+      "nome": "Fettuccine Alfredo",
+      "ingredienti": [
+        "Fettuccine",
+        "Burro",
+        "Panna",
+        "Parmigiano Reggiano"
+      ],
+      "prezzo": 13.50,
+      "categoria": "Primi"
+    },
+    {
+      "id": 6,
+      "nome": "Gnocchi al Pesto",
+      "ingredienti": [
+        "Gnocchi",
+        "Basilico",
+        "Pinoli",
+        "Aglio",
+        "Parmigiano Reggiano",
+        "Olio d'Oliva"
+      ],
+      "prezzo": 12.00,
+      "categoria": "Primi"
+    },
+    {
+      "id": 7,
+      "nome": "Ravioli di Ricotta e Spinaci",
+      "ingredienti": [
+        "Ravioli",
+        "Ricotta",
+        "Spinaci",
+        "Burro",
+        "Salvia"
+      ],
+      "prezzo": 14.50,
+      "categoria": "Primi"
+    },
+    {
+      "id": 8,
+      "nome": "Tortellini in Brodo",
+      "ingredienti": [
+        "Tortellini",
+        "Brodo di Carne"
+      ],
+      "prezzo": 13.00,
+      "categoria": "Primi"
+    },
+    {
+      "id": 9,
+      "nome": "Orecchiette con le Cime di Rapa",
+      "ingredienti": [
+        "Orecchiette",
+        "Cime di Rapa",
+        "Aglio",
+        "Olio d'Oliva",
+        "Acciughe",
+        "Peperoncino"
+      ],
+      "prezzo": 12.00,
+      "categoria": "Primi"
+    },
+    {
+      "id": 10,
+      "nome": "Tagliatelle al Ragù",
+      "ingredienti": [
+        "Tagliatelle",
+        "Ragù",
+        "Parmigiano Reggiano"
+      ],
+      "prezzo": 13.50,
+      "categoria": "Primi"
+    }
+  ]
+  
