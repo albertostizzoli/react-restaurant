@@ -31,7 +31,7 @@ function Header() {
                             <motion.h1 variants={text}>PEPPERONE</motion.h1>
                             <motion.h2 variants={text}>Ristorante & Pizzeria & Cafè</motion.h2>
                             <motion.div className="buttons pt-2" variants={text}>
-                                <motion.button variants={text}>Prenota un tavolo</motion.button>
+                                <motion.button variants={text} whileHover={{ scale: 1.2 }}>Prenota un tavolo</motion.button>
                             </motion.div>
                         </motion.div>
                     </div>
