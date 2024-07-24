@@ -17,7 +17,7 @@
 
 .text h1{
     font-size: 80px;
-    color: var(--dark-yellow);
+    color: var(--yellow);
     letter-spacing: 10px;
     font-weight: bold;
 }
@@ -29,6 +29,11 @@
    border-radius: 20px;
    color: var(--dark-red);
    cursor: pointer;
+}
+
+.buttons button:hover{
+    scale: 1.2;
+    transition: .3s;
 }
 
 .hamburger{
