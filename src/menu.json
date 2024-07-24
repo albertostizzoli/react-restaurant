@@ -9,6 +9,7 @@
             "Pecorino Romano",
             "Pepe Nero"
         ],
+        "image": "https://tse1.mm.bing.net/th?id=OIP.3LKP4HrdzD7tIr9m9Mz5vAHaJ3&pid=Api&P=0&h=180",
         "price": 12.50,
         "category": "Primi"
     },
@@ -21,6 +22,7 @@
             "Besciamella",
             "Parmigiano Reggiano"
         ],
+        "image": "https://tse4.mm.bing.net/th?id=OIP.N_GYrO2cMd62SV773aWGiQHaE6&pid=Api&P=0&h=180",
         "price": 14.00,
         "category": "Primi"
     },
@@ -34,6 +36,7 @@
             "Aglio",
             "Olio d'Oliva"
         ],
+        "image": "https://tse3.mm.bing.net/th?id=OIP.38_8BSzVKLeEJzeOh5xn1wHaE5&pid=Api&P=0&h=180",
         "price": 11.00,
         "category": "Primi"
     },
@@ -48,6 +51,7 @@
             "Parmigiano Reggiano",
             "Olio d'Oliva"
         ],
+        "image": "https://tse2.mm.bing.net/th?id=OIP._ARzVTFufAoL5onqHgBa0gHaE8&pid=Api&P=0&h=180",
         "price": 12.00,
         "category": "Primi"
     },
@@ -61,6 +65,7 @@
             "Burro",
             "Salvia"
         ],
+        "image": "https://tse4.mm.bing.net/th?id=OIP.AaEnMAYQIpsVRYW8tVGjUAHaFj&pid=Api&P=0&h=180",
         "price": 14.50,
         "category": "Primi"
     },
@@ -75,6 +80,7 @@
             "Acciughe",
             "Peperoncino"
         ],
+        "image": "https://tse2.mm.bing.net/th?id=OIP.pDAui5MdA74Wvpm6Mh2zAgHaDr&pid=Api&P=0&h=180",
         "price": 12.00,
         "category": "Primi"
     },
@@ -86,6 +92,7 @@
             "Ragù",
             "Parmigiano Reggiano"
         ],
+        "image": "https://tse1.mm.bing.net/th?id=OIP.M061XJBmwCmmGah-i0zQAwHaER&pid=Api&P=0&h=180",
         "price": 13.50,
         "category": "Primi"
     },
