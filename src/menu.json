@@ -575,36 +575,42 @@
     {
         "id": 40,
         "name": "Acqua Naturale",
+        "image": "https://tse1.mm.bing.net/th?id=OIP.HgB9yOWD3BUoWnVTKSv5wgHaHa&pid=Api&P=0&h=180",
         "price": 1.50,
         "category": "Bevande"
     },
     {
         "id": 41,
         "name": "Acqua Frizzante",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.jwbQGsxJj-YRgQOhXid3GwHaHa&pid=Api&P=0&h=180",
         "price": 1.50,
         "category": "Bevande"
     },
     {
         "id": 42,
         "name": "Coca-Cola",
+        "image": "https://tse1.mm.bing.net/th?id=OIP.0_ezIcFekTq93JbSIhNVNQHaFK&pid=Api&P=0&h=180",
         "price": 2.50,
         "category": "Bevande"
     },
     {
         "id": 43,
         "name": "Fanta",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.V6B0DGsTadgNOC7kH3URIQHaEK&pid=Api&P=0&h=180",
         "price": 2.50,
         "category": "Bevande"
     },
     {
         "id": 44,
         "name": "Sprite",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.u7gnDO9oMkQ9dVLB6IplIQHaHa&pid=Api&P=0&h=180",
         "price": 2.50,
         "category": "Bevande"
     },
     {
         "id": 45,
-        "name": "Birra",
+        "name": "Birra Moretti",
+        "image": "https://tse3.mm.bing.net/th?id=OIP.lw0aSB5Tg6KbPR8kZ2MvoQHaJO&pid=Api&P=0&h=180",
         "price": 5.00,
         "category": "Bevande"
     }
