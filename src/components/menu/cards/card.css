@@ -1,0 +1,19 @@
+ .box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.button-menu{
+    width: 120px;
+    height: 40px;
+    border: solid 2px var(--dark-red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
