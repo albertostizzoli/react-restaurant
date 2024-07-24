@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { motion } from "framer-motion";
 
 
 function Footer() {
@@ -26,14 +27,14 @@ function Footer() {
                 <div className="col-12 col-md-4">
                     <h6 className="ms-4">SEGUICI SU</h6>
                     <ul className="d-flex">
-                        <li><a href="#"><i className="fa-brands fa-facebook fa-2x me-2"></i></a></li>
-                        <li><a href="#"><i className="fa-brands fa-instagram fa-2x me-2"></i></a></li>
-                        <li><a href="#"><i className="fa-brands fa-x-twitter fa-2x me-2"></i></a></li>
-                        <li><a href="#"><i className="fa-brands fa-youtube fa-2x me-2"></i></a></li>
+                        <motion.a href="#" whileHover={{ scale: 1.4 }} whileTap={{ scale: 0.9 }}><i className="fa-brands fa-facebook fa-2x me-3"></i></motion.a>
+                        <motion.a href="#" whileHover={{ scale: 1.4 }} whileTap={{ scale: 0.9 }}><i className="fa-brands fa-instagram fa-2x me-3"></i></motion.a>
+                        <motion.a href="#" whileHover={{ scale: 1.4 }} whileTap={{ scale: 0.9 }}><i className="fa-brands fa-x-twitter fa-2x me-3"></i></motion.a>
+                        <motion.a href="#" whileHover={{ scale: 1.4 }} whileTap={{ scale: 0.9 }}><i className="fa-brands fa-youtube fa-2x me-3"></i></motion.a>
                     </ul>
                 </div>
                 <div className="row text-center pt-5">
-                    <h6>Copyright © 2024.  All Rights reserved</h6>
+                    <h6>Copyright © 2024. Tutti i diritti riservati</h6>
                 </div>
             </div>
         </div>
