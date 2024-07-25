@@ -10,7 +10,7 @@ function Card() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch('src/menu.json').then(response => response.json()).then(data => { setData(data) })
+        fetch('src/data/menu.json').then(response => response.json()).then(data => { setData(data) })
     }, [])
 
     const firstButton = {
