@@ -4,10 +4,25 @@ import { motion } from "framer-motion";
 
 
 function Footer() {
+
+    const title = {
+        initial: {
+            opacity: 0,
+            y: -100
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1
+            }
+        }
+    }
     return (
         <div className="footer container-fluid">
+            <motion.h2 initial="initial" whileInView="animate" variants={title}>CONTATTI</motion.h2>
             <div className="row text-start">
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-4 mt-5">
                     <ul>
                         <li><h6>CONTATTACI</h6></li>
                         <li>INDIRIZZO: Via Giulio Cesare 12</li>
@@ -15,7 +30,7 @@ function Footer() {
                         <li>TELEFONO: 555-123456</li>
                     </ul>
                 </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-4 mt-5">
                     <ul>
                         <li><h6>LINKS</h6></li>
                         <li>Home</li>
@@ -24,7 +39,7 @@ function Footer() {
                         <li>Contatti</li>
                     </ul>
                 </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-4 mt-5">
                     <h6 className="ms-4">SEGUICI SU</h6>
                     <ul className="d-flex">
                         <motion.a href="#" whileHover={{ scale: 1.4 }} whileTap={{ scale: 0.9 }}><i className="fa-brands fa-facebook fa-2x me-3"></i></motion.a>

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { Switch, Case, Default } from "react-if";
+import { Switch, Case } from "react-if";
 import './card.css';
 
 function Card() {
@@ -79,8 +79,8 @@ function Card() {
                                             </div>
                                             <div className="food-info">
                                                 <div className="food-inf">
-                                                    <h5>{data.name}</h5>
-                                                    <p>{data.price} &euro;</p>
+                                                    <h5 className="text-center">{data.name}</h5>
+                                                    <p className="text-center">{data.price} &euro;</p>
                                                 </div>
                                             </div>
                                         </motion.div>
@@ -98,8 +98,8 @@ function Card() {
                                             </div>
                                             <div className="food-info">
                                                 <div className="food-inf">
-                                                    <h5>{data.name}</h5>
-                                                    <p>{data.price} &euro;</p>
+                                                    <h5 className="text-center">{data.name}</h5>
+                                                    <p className="text-center">{data.price} &euro;</p>
                                                 </div>
                                             </div>
                                         </motion.div>
@@ -117,8 +117,8 @@ function Card() {
                                             </div>
                                             <div className="food-info">
                                                 <div className="food-inf">
-                                                    <h5>{data.name}</h5>
-                                                    <p>{data.price} &euro;</p>
+                                                    <h5 className="text-center">{data.name}</h5>
+                                                    <p className="text-center">{data.price} &euro;</p>
                                                 </div>
                                             </div>
                                         </motion.div>
@@ -136,8 +136,8 @@ function Card() {
                                             </div>
                                             <div className="food-info">
                                                 <div className="food-inf">
-                                                    <h5>{data.name}</h5>
-                                                    <p>{data.price} &euro;</p>
+                                                    <h5 className="text-center">{data.name}</h5>
+                                                    <p className="text-center">{data.price} &euro;</p>
                                                 </div>
                                             </div>
                                         </motion.div>
@@ -155,8 +155,8 @@ function Card() {
                                             </div>
                                             <div className="food-info">
                                                 <div className="food-inf">
-                                                    <h5>{data.name}</h5>
-                                                    <p>{data.price} &euro;</p>
+                                                    <h5 className="text-center">{data.name}</h5>
+                                                    <p className="text-center">{data.price} &euro;</p>
                                                 </div>
                                             </div>
                                         </motion.div>
@@ -174,8 +174,8 @@ function Card() {
                                             </div>
                                             <div className="food-info">
                                                 <div className="food-inf">
-                                                    <h5>{data.name}</h5>
-                                                    <p>{data.price} &euro;</p>
+                                                    <h5 className="text-center">{data.name}</h5>
+                                                    <p className="text-center">{data.price} &euro;</p>
                                                 </div>
                                             </div>
                                         </motion.div>

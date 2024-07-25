@@ -1,6 +1,12 @@
 .footer{
     padding: 40px;
-     
+    margin-top: 40px;  
+}
+
+.footer h2{
+    color: var(--dark-orange);
+    font-size: 60px;
+    text-align: center;
 }
 
 .footer ul{

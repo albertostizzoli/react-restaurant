@@ -32,6 +32,7 @@
     overflow: hidden;
     border-top-left-radius: 26px;
     border-bottom-left-radius: 26px;
+    aspect-ratio: 2/1 !important;
 }
 
 img {
