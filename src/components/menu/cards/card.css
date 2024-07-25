@@ -17,3 +17,42 @@
     border-radius: 20px;
     font-size: 20px;
 }
+
+.food {
+    height: 100%;
+    margin-top: 3rem;
+    border: 4px solid var(--dark-red);
+    border-radius: 30px;
+    display: flex;
+}
+
+.pic {
+    width: 150px;
+    height: 100%;
+    overflow: hidden;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.food-info {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.food-inf {
+    height: 100px;
+}
+
+.food-inf h5{
+    color: var(--dark-red);
+}
+

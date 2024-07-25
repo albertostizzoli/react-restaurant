@@ -13,19 +13,19 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 function App() {
   return (
     <>
-      <header>
+      <header id="Home">
         <Navbar></Navbar>
         <Header></Header>
       </header>
       <main>
-        <section>
+        <section id="Noi">
           <About></About>
         </section>
-        <section>
+        <section id="Menu">
           <Menu></Menu>
         </section>
       </main>
-      <footer>
+      <footer id="Contatti">
         <Footer></Footer>
       </footer>
     </>

@@ -28,7 +28,7 @@ function Links() {
         }
     }
 
-    const items = ['Home', 'Chi Siamo', 'Menu', 'Contatti']
+    const items = ['Home', 'Noi', 'Menu', 'Contatti']
 
     return (
         <motion.div className="links d-flex flex-column justify-content-center align-items-center gap-3" links={links}>

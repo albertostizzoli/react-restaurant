@@ -574,14 +574,14 @@
     },
     {
         "id": 40,
-        "name": "Acqua Naturale",
+        "name": "Levissima",
         "image": "https://tse1.mm.bing.net/th?id=OIP.HgB9yOWD3BUoWnVTKSv5wgHaHa&pid=Api&P=0&h=180",
         "price": 1.50,
         "category": "Bevande"
     },
     {
         "id": 41,
-        "name": "Acqua Frizzante",
+        "name": "San Benedetto",
         "image": "https://tse2.mm.bing.net/th?id=OIP.jwbQGsxJj-YRgQOhXid3GwHaHa&pid=Api&P=0&h=180",
         "price": 1.50,
         "category": "Bevande"

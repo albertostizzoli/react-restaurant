@@ -65,9 +65,129 @@ function Card() {
                 <motion.button variants={firstButton} animate={selected == 5 ? "selected" : "unselected"} onClick={() => setSelected(5)} type='button' className="button-menu">Desserts</motion.button>
                 <motion.button variants={firstButton} animate={selected == 6 ? "selected" : "unselected"} onClick={() => setSelected(6)} type='button' className="button-menu">Bevande</motion.button>
             </motion.div>
+
+            <div className="container">
+                <div className="row">
+                    <Switch>
+                        <Case condition={selected == 1}>
+                            {data.filter(data => data.category == "Primi").map((data) => {
+                                return (
+                                    <div className="col-12 col-md-3 my-2" key={data.id}>
+                                        <motion.div variants={card} initial="initial" whileInView="animate" className="food d-flex align-items-start">
+                                            <div className="pic">
+                                                <img src={data.image} alt={data.name} />
+                                            </div>
+                                            <div className="food-info">
+                                                <div className="food-inf">
+                                                    <h5>{data.name}</h5>
+                                                    <p>{data.price} &euro;</p>
+                                                </div>
+                                            </div>
+                                        </motion.div>
+                                    </div>
+                                )
+                            })}
+                        </Case>
+                        <Case condition={selected == 2}>
+                            {data.filter(data => data.category == "Secondi").map((data) => {
+                                return (
+                                    <div className="col-12 col-md-3 my-2" key={data.id}>
+                                        <motion.div variants={card} initial="initial" whileInView="animate" className="food d-flex align-items-start">
+                                            <div className="pic">
+                                                <img src={data.image} alt={data.name} />
+                                            </div>
+                                            <div className="food-info">
+                                                <div className="food-inf">
+                                                    <h5>{data.name}</h5>
+                                                    <p>{data.price} &euro;</p>
+                                                </div>
+                                            </div>
+                                        </motion.div>
+                                    </div>
+                                )
+                            })}
+                        </Case>
+                        <Case condition={selected == 3}>
+                            {data.filter(data => data.category == "Hamburger").map((data) => {
+                                return (
+                                    <div className="col-12 col-md-3 my-2" key={data.id}>
+                                        <motion.div variants={card} initial="initial" whileInView="animate" className="food d-flex align-items-start">
+                                            <div className="pic">
+                                                <img src={data.image} alt={data.name} />
+                                            </div>
+                                            <div className="food-info">
+                                                <div className="food-inf">
+                                                    <h5>{data.name}</h5>
+                                                    <p>{data.price} &euro;</p>
+                                                </div>
+                                            </div>
+                                        </motion.div>
+                                    </div>
+                                )
+                            })}
+                        </Case>
+                        <Case condition={selected == 4}>
+                            {data.filter(data => data.category == "Pizze").map((data) => {
+                                return (
+                                    <div className="col-12 col-md-3 my-2" key={data.id}>
+                                        <motion.div variants={card} initial="initial" whileInView="animate" className="food d-flex align-items-start">
+                                            <div className="pic">
+                                                <img src={data.image} alt={data.name} />
+                                            </div>
+                                            <div className="food-info">
+                                                <div className="food-inf">
+                                                    <h5>{data.name}</h5>
+                                                    <p>{data.price} &euro;</p>
+                                                </div>
+                                            </div>
+                                        </motion.div>
+                                    </div>
+                                )
+                            })}
+                        </Case>
+                        <Case condition={selected == 5}>
+                            {data.filter(data => data.category == "Desserts").map((data) => {
+                                return (
+                                    <div className="col-12 col-md-3 my-2" key={data.id}>
+                                        <motion.div variants={card} initial="initial" whileInView="animate" className="food d-flex align-items-start">
+                                            <div className="pic">
+                                                <img src={data.image} alt={data.name} />
+                                            </div>
+                                            <div className="food-info">
+                                                <div className="food-inf">
+                                                    <h5>{data.name}</h5>
+                                                    <p>{data.price} &euro;</p>
+                                                </div>
+                                            </div>
+                                        </motion.div>
+                                    </div>
+                                )
+                            })}
+                        </Case>
+                        <Case condition={selected == 6}>
+                            {data.filter(data => data.category == "Bevande").map((data) => {
+                                return (
+                                    <div className="col-12 col-md-3 my-2" key={data.id}>
+                                        <motion.div variants={card} initial="initial" whileInView="animate" className="food d-flex align-items-start">
+                                            <div className="pic">
+                                                <img src={data.image} alt={data.name} />
+                                            </div>
+                                            <div className="food-info">
+                                                <div className="food-inf">
+                                                    <h5>{data.name}</h5>
+                                                    <p>{data.price} &euro;</p>
+                                                </div>
+                                            </div>
+                                        </motion.div>
+                                    </div>
+                                )
+                            })}
+                        </Case>
+                    </Switch>
+                </div>
+            </div>
         </>
     )
-
 }
 
 export default Card
