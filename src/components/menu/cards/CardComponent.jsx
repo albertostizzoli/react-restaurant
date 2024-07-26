@@ -16,7 +16,7 @@ function Card() {
     const firstButton = {
         selected: {
             backgroundColor: "var(--orange)",
-            color: "white"
+            color: "var(--yellow)"
         },
         unselected: {
             backgroundColor: "var(--yellow)",
