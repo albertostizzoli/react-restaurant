@@ -2,13 +2,6 @@
     {
         "id": 1,
         "name": "Spaghetti alla Carbonara",
-        "ingredients": [
-            "Spaghetti",
-            "Uova",
-            "Pancetta",
-            "Pecorino Romano",
-            "Pepe Nero"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP.3LKP4HrdzD7tIr9m9Mz5vAHaJ3&pid=Api&P=0&h=180",
         "price": 12.50,
         "category": "Primi"
@@ -16,12 +9,6 @@
     {
         "id": 2,
         "name": "Lasagne alla Bolognese",
-        "ingredients": [
-            "Sfoglia di Lasagna",
-            "Ragù",
-            "Besciamella",
-            "Parmigiano Reggiano"
-        ],
         "image": "https://tse4.mm.bing.net/th?id=OIP.N_GYrO2cMd62SV773aWGiQHaE6&pid=Api&P=0&h=180",
         "price": 14.00,
         "category": "Primi"
@@ -29,13 +16,6 @@
     {
         "id": 3,
         "name": "Penne all'Arrabbiata",
-        "ingredients": [
-            "Penne",
-            "Pomodori",
-            "Peperoncino",
-            "Aglio",
-            "Olio d'Oliva"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.38_8BSzVKLeEJzeOh5xn1wHaE5&pid=Api&P=0&h=180",
         "price": 11.00,
         "category": "Primi"
@@ -43,14 +23,6 @@
     {
         "id": 4,
         "name": "Gnocchi al Pesto",
-        "ingredients": [
-            "Gnocchi",
-            "Basilico",
-            "Pinoli",
-            "Aglio",
-            "Parmigiano Reggiano",
-            "Olio d'Oliva"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP._ARzVTFufAoL5onqHgBa0gHaE8&pid=Api&P=0&h=180",
         "price": 12.00,
         "category": "Primi"
@@ -58,13 +30,6 @@
     {
         "id": 5,
         "name": "Ravioli di Ricotta e Spinaci",
-        "ingredients": [
-            "Ravioli",
-            "Ricotta",
-            "Spinaci",
-            "Burro",
-            "Salvia"
-        ],
         "image": "https://tse4.mm.bing.net/th?id=OIP.AaEnMAYQIpsVRYW8tVGjUAHaFj&pid=Api&P=0&h=180",
         "price": 14.50,
         "category": "Primi"
@@ -72,14 +37,6 @@
     {
         "id": 6,
         "name": "Orecchiette con le Cime di Rapa",
-        "ingredients": [
-            "Orecchiette",
-            "Cime di Rapa",
-            "Aglio",
-            "Olio d'Oliva",
-            "Acciughe",
-            "Peperoncino"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.pDAui5MdA74Wvpm6Mh2zAgHaDr&pid=Api&P=0&h=180",
         "price": 12.00,
         "category": "Primi"
@@ -87,11 +44,6 @@
     {
         "id": 7,
         "name": "Tagliatelle al Ragù",
-        "ingredients": [
-            "Tagliatelle",
-            "Ragù",
-            "Parmigiano Reggiano"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP.M061XJBmwCmmGah-i0zQAwHaER&pid=Api&P=0&h=180",
         "price": 13.50,
         "category": "Primi"
@@ -99,13 +51,6 @@
     {
         "id": 8,
         "name": "Bistecca alla Fiorentina",
-        "ingredients": [
-            "Bistecca di Manzo",
-            "Sale",
-            "Pepe",
-            "Rosmarino",
-            "Olio d'Oliva"
-        ],
         "image": "https://tse4.mm.bing.net/th?id=OIP.qWQhLHZzH3RfSURodRoy0AHaEo&pid=Api&P=0&h=180",
         "price": 25.00,
         "category": "Secondi"
@@ -113,14 +58,6 @@
     {
         "id": 9,
         "name": "Pollo alla Cacciatora",
-        "ingredients": [
-            "Pollo",
-            "Pomodori",
-            "Cipolle",
-            "Carote",
-            "Sedano",
-            "Vino Bianco"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.QViauNyCajRt30qtbyFoUAHaEK&pid=Api&P=0&h=180",
         "price": 18.00,
         "category": "Secondi"
@@ -128,13 +65,6 @@
     {
         "id": 10,
         "name": "Pesce Spada alla Griglia",
-        "ingredients": [
-            "Pesce Spada",
-            "Olio d'Oliva",
-            "Aglio",
-            "Prezzemolo",
-            "Limone"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.vFzstPaKxyE9L8roZu25KQHaE8&pid=Api&P=0&h=180",
         "price": 22.00,
         "category": "Secondi"
@@ -142,14 +72,6 @@
     {
         "id": 11,
         "name": "Ossobuco alla Milanese",
-        "ingredients": [
-            "Ossobuco di Vitello",
-            "Vino Bianco",
-            "Brodo",
-            "Carote",
-            "Sedano",
-            "Cipolle"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.tjPCi1KJPZqzN_OJnDXQXQHaEK&pid=Api&P=0&h=180",
         "price": 20.00,
         "category": "Secondi"
@@ -157,14 +79,6 @@
     {
         "id": 12,
         "name": "Costolette di Agnello",
-        "ingredients": [
-            "Costolette di Agnello",
-            "Rosmarino",
-            "Aglio",
-            "Olio d'Oliva",
-            "Sale",
-            "Pepe"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.RPEB_syAH_Es02zO_NqL0wHaEc&pid=Api&P=0&h=180",
         "price": 23.00,
         "category": "Secondi"
@@ -172,13 +86,6 @@
     {
         "id": 13,
         "name": "Melanzane alla Parmigiana",
-        "ingredients": [
-            "Melanzane",
-            "Pomodori",
-            "Mozzarella",
-            "Parmigiano Reggiano",
-            "Basilico"
-        ],
         "image": "https://tse4.mm.bing.net/th?id=OIP.mAy43MdxBwwO0OIRihVIVAHaE8&pid=Api&P=0&h=180",
         "price": 16.00,
         "category": "Secondi"
@@ -186,14 +93,6 @@
     {
         "id": 14,
         "name": "Spezzatino di Manzo",
-        "ingredients": [
-            "Manzo",
-            "Patate",
-            "Carote",
-            "Cipolle",
-            "Vino Rosso",
-            "Brodo"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.8LPICLq5P7osFhew2iUHjgHaE8&pid=Api&P=0&h=180",
         "price": 18.50,
         "category": "Secondi"
@@ -201,13 +100,6 @@
     {
         "id": 15,
         "name": "Salmone al Forno",
-        "ingredients": [
-            "Salmone",
-            "Limone",
-            "Aglio",
-            "Prezzemolo",
-            "Olio d'Oliva"
-        ],
         "image": "https://tse4.mm.bing.net/th?id=OIP.fHppPD5Un-v9kNoYvxm00QHaE6&pid=Api&P=0&h=180",
         "price": 21.00,
         "category": "Secondi"
@@ -215,16 +107,6 @@
     {
         "id": 16,
         "name": "Classic Beef Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Manzo",
-            "Lattuga",
-            "Pomodoro",
-            "Cipolla",
-            "Formaggio Cheddar",
-            "Ketchup",
-            "Maionese"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.Z34VvdCT6bEordzT-7HgqwHaF-&pid=Api&P=0&h=180",
         "price": 10.00,
         "category": "Hamburger"
@@ -232,16 +114,6 @@
     {
         "id": 17,
         "name": "Cheeseburger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Manzo",
-            "Formaggio Cheddar",
-            "Lattuga",
-            "Pomodoro",
-            "Cipolla",
-            "Ketchup",
-            "Maionese"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP.387PojRI5pukjUndARHSuAHaE8&pid=Api&P=0&h=180",
         "price": 11.00,
         "category": "Hamburger"
@@ -249,16 +121,6 @@
     {
         "id": 18,
         "name": "Bacon Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Manzo",
-            "Bacon",
-            "Formaggio Cheddar",
-            "Lattuga",
-            "Pomodoro",
-            "Cipolla",
-            "Maionese"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.Xahhp5CPye5GDfojwOYgXwHaHa&pid=Api&P=0&h=180",
         "price": 12.50,
         "category": "Hamburger"
@@ -266,15 +128,6 @@
     {
         "id": 19,
         "name": "Veggie Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Burger di Verdure",
-            "Lattuga",
-            "Pomodoro",
-            "Cipolla",
-            "Avocado",
-            "Maionese Vegana"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.BFXTXw0InfmOmJkzlSW6FgHaE8&pid=Api&P=0&h=180",
         "price": 9.50,
         "category": "Hamburger"
@@ -282,14 +135,6 @@
     {
         "id": 20,
         "name": "Chicken Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Petto di Pollo",
-            "Lattuga",
-            "Pomodoro",
-            "Maionese",
-            "Formaggio Svizzero"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.x2vg5HgA4Rl9W12EEh1w1wHaF6&pid=Api&P=0&h=180",
         "price": 10.50,
         "category": "Hamburger"
@@ -297,15 +142,6 @@
     {
         "id": 21,
         "name": "BBQ Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Manzo",
-            "Formaggio Cheddar",
-            "Cipolle Caramellate",
-            "Salsa BBQ",
-            "Lattuga",
-            "Pomodoro"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.hrlcKo_0Geo7mR3J_QdsOgHaE7&pid=Api&P=0&h=180",
         "price": 12.00,
         "category": "Hamburger"
@@ -313,15 +149,6 @@
     {
         "id": 22,
         "name": "Mushroom Swiss Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Manzo",
-            "Funghi Saltati",
-            "Formaggio Svizzero",
-            "Lattuga",
-            "Pomodoro",
-            "Maionese"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.xogRQ9A7osenw1azFVOj0wHaFy&pid=Api&P=0&h=180",
         "price": 11.50,
         "category": "Hamburger"
@@ -329,15 +156,6 @@
     {
         "id": 23,
         "name": "Spicy Jalapeno Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Manzo",
-            "Formaggio Pepper Jack",
-            "Jalapeno",
-            "Lattuga",
-            "Pomodoro",
-            "Maionese Piccante"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP.MKAMfBMCt6Jdlh0Ijcgd3wHaD8&pid=Api&P=0&h=180",
         "price": 11.00,
         "category": "Hamburger"
@@ -345,15 +163,6 @@
     {
         "id": 24,
         "name": "Blue Cheese Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Manzo",
-            "Formaggio Blue",
-            "Lattuga",
-            "Pomodoro",
-            "Cipolla",
-            "Maionese"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP.fC3K7ccF3xc4WwETgupmdQHaE-&pid=Api&P=0&h=180",
         "price": 12.00,
         "category": "Hamburger"
@@ -361,15 +170,6 @@
     {
         "id": 25,
         "name": "Avocado Burger",
-        "ingredients": [
-            "Pane per Hamburger",
-            "Manzo",
-            "Avocado",
-            "Formaggio Cheddar",
-            "Lattuga",
-            "Pomodoro",
-            "Maionese"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP.Nt9tVzqmddbzN7shLwFpBQHaFj&pid=Api&P=0&h=180",
         "price": 11.50,
         "category": "Hamburger"
@@ -377,13 +177,6 @@
     {
         "id": 26,
         "name": "Margherita",
-        "ingredients": [
-            "Pomodoro",
-            "Mozzarella",
-            "Basilico",
-            "Olio d'Oliva",
-            "Sale"
-        ],
         "image": "https://tse4.mm.bing.net/th?id=OIP.27QPM6MictXbaX3AgYp2LwHaD4&pid=Api&P=0&h=180",
         "price": 8.00,
         "category": "Pizze"
@@ -391,13 +184,6 @@
     {
         "id": 27,
         "name": "Diavola",
-        "ingredients": [
-            "Pomodoro",
-            "Mozzarella",
-            "Salame Piccante",
-            "Olio d'Oliva",
-            "Peperoncino"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.L0CCNxuMR4HMXyUr5MURqgHaFj&pid=Api&P=0&h=180",
         "price": 9.00,
         "category": "Pizze"
@@ -405,14 +191,6 @@
     {
         "id": 28,
         "name": "Quattro Stagioni",
-        "ingredients": [
-            "Pomodoro",
-            "Mozzarella",
-            "Prosciutto Cotto",
-            "Funghi",
-            "Carciofi",
-            "Olive"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.8CAumH4-eLC1P8LYralfFQHaE7&pid=Api&P=0&h=180",
         "price": 10.00,
         "category": "Pizze"
@@ -420,15 +198,6 @@
     {
         "id": 29,
         "name": "Capricciosa",
-        "ingredients": [
-            "Pomodoro",
-            "Mozzarella",
-            "Prosciutto Cotto",
-            "Funghi",
-            "Carciofi",
-            "Olive",
-            "Uova"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.NER5u0beFw2eiDwg0dEbNQHaFC&pid=Api&P=0&h=180",
         "price": 10.50,
         "category": "Pizze"
@@ -436,12 +205,6 @@
     {
         "id": 30,
         "name": "Quattro Formaggi",
-        "ingredients": [
-            "Mozzarella",
-            "Gorgonzola",
-            "Fontina",
-            "Parmigiano Reggiano"
-        ],
         "image": "https://tse3.mm.bing.net/th?id=OIP.Y1Hc4Y6Z4CMSXY0dAp45mwHaE8&pid=Api&P=0&h=180",
         "price": 9.50,
         "category": "Pizze"
@@ -449,14 +212,6 @@
     {
         "id": 31,
         "name": "Ortolana",
-        "ingredients": [
-            "Pomodoro",
-            "Mozzarella",
-            "Zucchine",
-            "Melanzane",
-            "Peperoni",
-            "Olio d'Oliva"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP.cRd2t4oPlY8Ny30gKs6QyQHaE9&pid=Api&P=0&h=180",
         "price": 9.00,
         "category": "Pizze"
@@ -464,13 +219,6 @@
     {
         "id": 32,
         "name": "Tonno e Cipolle",
-        "ingredients": [
-            "Pomodoro",
-            "Mozzarella",
-            "Tonno",
-            "Cipolle",
-            "Olio d'Oliva"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.QINpTldX-jiSOKIjFQd0AgAAAA&pid=Api&P=0&h=180",
         "price": 9.50,
         "category": "Pizze"
@@ -478,13 +226,6 @@
     {
         "id": 33,
         "name": "Boscaiola",
-        "ingredients": [
-            "Pomodoro",
-            "Mozzarella",
-            "Salsiccia",
-            "Funghi",
-            "Olio d'Oliva"
-        ],
         "image": "https://tse4.mm.bing.net/th?id=OIP.WSu_dh-hf8ZeV5QRkkXfCQHaFL&pid=Api&P=0&h=180",
         "price": 10.00,
         "category": "Pizze"
@@ -492,13 +233,6 @@
     {
         "id": 34,
         "name": "Bufalina",
-        "ingredients": [
-            "Pomodoro",
-            "Mozzarella di Bufala",
-            "Basilico",
-            "Olio d'Oliva",
-            "Sale"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.SMFDpdTNcmVBY9UuMge0cQHaE8&pid=Api&P=0&h=180",
         "price": 10.50,
         "category": "Pizze"
@@ -506,14 +240,6 @@
     {
         "id": 35,
         "name": "Tiramisù",
-        "ingredients": [
-            "Savoiardi",
-            "Mascarpone",
-            "Uova",
-            "Zucchero",
-            "Caffè",
-            "Cacao"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.g6OCL5qbY-Nnp-jUe3qzeQHaE7&pid=Api&P=0&h=180",
         "price": 6.00,
         "category": "Desserts"
@@ -521,14 +247,6 @@
     {
         "id": 36,
         "name": "Cheesecake",
-        "ingredients": [
-            "Formaggio Crema",
-            "Zucchero",
-            "Uova",
-            "Biscotti",
-            "Burro",
-            "Frutti di Bosco"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP.xYeP9xYvgXOH3pm-3D-2TAHaE8&pid=Api&P=0&h=180",
         "price": 7.00,
         "category": "Desserts"
@@ -536,13 +254,6 @@
     {
         "id": 37,
         "name": "Cannoli Siciliani",
-        "ingredients": [
-            "Ricotta",
-            "Zucchero",
-            "Scorza d'Arancia",
-            "Gocce di Cioccolato",
-            "Cannoli"
-        ],
         "image": "https://tse1.mm.bing.net/th?id=OIP._L1Qqz1oLZ4tQASFyLyBMAHaFj&pid=Api&P=0&h=180",
         "price": 6.50,
         "category": "Desserts"
@@ -550,12 +261,6 @@
     {
         "id": 38,
         "name": "Zuppa Inglese",
-        "ingredients": [
-            "Pan di Spagna",
-            "Crema Pasticcera",
-            "Alchermes",
-            "Cioccolato"
-        ],
         "image": "https://tse2.mm.bing.net/th?id=OIP.lV5KLpZOe2clZd4bPvtF0wHaFL&pid=Api&P=0&h=180",
         "price": 5.50,
         "category": "Desserts"
@@ -563,11 +268,6 @@
     {
         "id": 39,
         "name": "Millefoglie",
-        "ingredients": [
-            "Pasta Sfoglia",
-            "Crema Pasticcera",
-            "Zucchero a Velo"
-        ],
         "image": "https://tse4.mm.bing.net/th?id=OIP.MAsY-L4T-gWeUTmXZR_BPAHaE8&pid=Api&P=0&h=180",
         "price": 6.00,
         "category": "Desserts"
