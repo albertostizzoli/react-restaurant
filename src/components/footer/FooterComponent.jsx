@@ -19,8 +19,8 @@ function Footer() {
         }
     }
     return (
-        <div className="footer container-fluid">
-            <motion.h2 initial="initial" whileInView="animate" variants={title}>CONTATTI</motion.h2>
+        <motion.div initial="initial" whileInView="animate" variants={title} className="footer container-fluid">
+            <h2>CONTATTI</h2>
             <div className="row text-start">
                 <div className="col-12 col-md-4 mt-5">
                     <ul>
@@ -52,7 +52,7 @@ function Footer() {
                     <h6>Copyright © 2024. Tutti i diritti riservati</h6>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
