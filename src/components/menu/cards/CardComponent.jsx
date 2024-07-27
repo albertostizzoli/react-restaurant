@@ -1,57 +1,70 @@
+// Importo la libreria React
 import React from "react";
+// Importo il modulo motion da framer-motion per le animazioni
 import { motion } from "framer-motion";
+// Importo i hook useState e useEffect da React per la gestione dello stato e degli effetti
 import { useState, useEffect } from "react";
+// Importo i componenti Switch e Case da react-if per la logica condizionale
 import { Switch, Case } from "react-if";
+// Importo lo stile CSS per questo componente
 import './card.css';
 
 function Card() {
+    // Stato per tenere traccia della categoria selezionata (default: 1 per 'Primi')
+    const [selected, setSelected] = useState(1);
+    // Stato per memorizzare i dati del menu
+    const [data, setData] = useState([]);
 
-    const [selected, setSelected] = useState(1)
-    const [data, setData] = useState([])
-
+    // Hook useEffect per caricare i dati del menu una volta che il componente è montato
     useEffect(() => {
-        fetch('src/data/menu.json').then(response => response.json()).then(data => { setData(data) })
-    }, [])
+        // Fetch dei dati dal file JSON
+        fetch('src/data/menu.json')
+            .then(response => response.json()) // Converte la risposta in JSON
+            .then(data => { setData(data) }); // Imposta i dati nel state
+    }, []); // Dipendenza vuota per eseguire l'effetto solo una volta al montaggio
 
+    // Definisco le animazioni per i bottoni del menu
     const firstButton = {
         selected: {
-            backgroundColor: "var(--orange)",
-            color: "var(--yellow)"
+            backgroundColor: "var(--orange)", // Colore di sfondo quando il bottone è selezionato
+            color: "var(--yellow)" // Colore del testo quando il bottone è selezionato
         },
         unselected: {
-            backgroundColor: "var(--yellow)",
-            color: "var(--dark-red)",
+            backgroundColor: "var(--yellow)", // Colore di sfondo quando il bottone non è selezionato
+            color: "var(--dark-red)" // Colore del testo quando il bottone non è selezionato
         },
         transition: {
-            duration: 0.5
+            duration: 0.5 // Durata dell'animazione in secondi
         }
-    }
+    };
 
+    // Definisco le animazioni per i bottoni della sezione
     const secondButton = {
         initial: {
-            opacity: 0,
-            y: -100
+            opacity: 0, // Opacità iniziale
+            y: -100 // Posizione iniziale sopra il punto di origine
         },
         animate: {
-            opacity: 1,
-            y: 0,
+            opacity: 1, // Opacità finale
+            y: 0, // Posizione finale al punto di origine
             transition: {
-                duration: 0.5
+                duration: 0.5 // Durata dell'animazione in secondi
             }
         }
-    }
+    };
 
+    // Definisco le animazioni per le carte del menu
     const card = {
         initial: {
-            x: -100,
-            opacity: 0
+            x: -100, // Posizione iniziale a sinistra
+            opacity: 0 // Opacità iniziale
         },
         animate: {
-            x: 0,
-            opacity: 1,
+            x: 0, // Posizione finale
+            opacity: 1, // Opacità finale
             transition: {
-                duration: 0.5,
-                staggerChildren: 0.1
+                duration: 0.5, // Durata dell'animazione in secondi
+                staggerChildren: 0.1 // Tempo di ritardo tra l'animazione dei figli
             }
         }
     }
@@ -190,4 +203,5 @@ function Card() {
     )
 }
 
+// Esporto la funzione Card da poterla usare nel componente Menu
 export default Card

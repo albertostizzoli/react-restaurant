@@ -107,7 +107,7 @@
     {
         "id": 16,
         "name": "Ossobuco alla Milanese",
-        "image": "https://tse3.mm.bing.net/th?id=OIP.tjPCi1KJPZqzN_OJnDXQXQHaEK&pid=Api&P=0&h=180",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.ggpsmpNzu0EDvEUgG0yIhgHaE8&pid=Api&P=0&h=180",
         "price": 20.00,
         "category": "Secondi"
     },
@@ -120,8 +120,8 @@
     },
     {
         "id": 18,
-        "name": "Melanzane alla Parmigiana",
-        "image": "https://tse4.mm.bing.net/th?id=OIP.mAy43MdxBwwO0OIRihVIVAHaE8&pid=Api&P=0&h=180",
+        "name": "Parmigiana di Melanzane",
+        "image": "https://tse2.mm.bing.net/th?id=OIP.aBrQE-E0GVgTglwX91oGewHaE8&pid=Api&P=0&h=180",
         "price": 16.00,
         "category": "Secondi"
     },
