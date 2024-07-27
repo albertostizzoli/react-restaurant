@@ -2,17 +2,6 @@
 
 This is a project created with the React framework that represents a restaurant website with its own menu.
 
-## Technologies Used
-
-* REACT: Javascript Library open source for building user interface.
-
-* BOOTSTRAP: Framework CSS open source for building user interface.
-
-* FRAMER-MOTION: is an animation library for React that allows you to create smooth and interactive animations in a simple and declarative way.
-
-* REACT-IF: is a library for React that simplifies the management of conditional logic in component rendering. It provides a set of components that allow you to express conditions in a declarative and readable way, improving the clarity and maintainability of your code.
-
-
 ## How to create a React Project
 
 Make sure you have Node.js and npm installed on your machine.
@@ -27,6 +16,19 @@ Make sure you have Node.js and npm installed on your machine.
 ``` npm install ``` for install our dependencies
 6. Type this command:
 ``` npm run dev ``` for launch the server
+
+
+## Technologies Used
+
+* REACT: Javascript Library open source for building user interface.
+
+* BOOTSTRAP: Framework CSS open source for building user interface. It is designed to simplify the front-end design and development process with a collection of pre-built tools, components, and templates.
+
+* FRAMER-MOTION: is an animation library for React that allows you to create smooth and interactive animations in a simple and declarative way.
+
+* REACT-IF: is a library for React that simplifies the management of conditional logic in component rendering. It provides a set of components that allow you to express conditions in a declarative and readable way, improving the clarity and maintainability of your code.
+
+
 
 
 
