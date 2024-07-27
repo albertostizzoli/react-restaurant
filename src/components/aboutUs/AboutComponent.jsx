@@ -1,8 +1,8 @@
 import React from "react";
 import './about.css';
 import { motion } from "framer-motion";
-import Restaurant from '../../assets/img/restaurant1.jpg';
-import Meat from '../../assets/img/restaurant2.jpg';
+import Restaurant from '../../assets/img/restaurant.jpg';
+import Meat from '../../assets/img/meat.jpg';
 import Pizza from '../../assets/img/pizza.jpg';
 import Cake from '../../assets/img/cake.jpg';
 
