@@ -18,7 +18,7 @@ function Card() {
     // Hook useEffect per caricare i dati del menu una volta che il componente è montato
     useEffect(() => {
         // Fetch dei dati dal file JSON
-        fetch('src/data/menu.json')
+        fetch('/data/menu.json')
             .then(response => response.json()) // Converte la risposta in JSON
             .then(data => { setData(data) }); // Imposta i dati nel state
     }, []); // Dipendenza vuota per eseguire l'effetto solo una volta al montaggio
