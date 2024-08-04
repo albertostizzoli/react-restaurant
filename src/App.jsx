@@ -15,7 +15,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 // Definisco la funzione principale App con tutti i componenti dichiarati
 function App() {
+
   return (
+
     <>
       <header id="Home">
         <Navbar></Navbar>
@@ -33,6 +35,7 @@ function App() {
         <Footer></Footer>
       </footer>
     </>
+    
   )
 }
 

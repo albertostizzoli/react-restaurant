@@ -85,7 +85,7 @@ function Card() {
                         <Case condition={selected == 1}>
                             {data.filter(data => data.category == "Primi").map((data) => {
                                 return (
-                                    <div className="col-12 col-md-3 my-2 pt-3" key={data.id}>
+                                    <div className="col-12 col-md-3 col-lg-4 pt-3" key={data.id}>
                                         <motion.div variants={card} initial="initial" whileInView="animate" className="food">
                                             <div className="pic">
                                                 <img src={data.image} alt={data.name} />
@@ -104,7 +104,7 @@ function Card() {
                         <Case condition={selected == 2}>
                             {data.filter(data => data.category == "Secondi").map((data) => {
                                 return (
-                                    <div className="col-12 col-md-3 my-2 pt-3" key={data.id}>
+                                    <div className="col-12 col-md-3 col-lg-4 pt-3" key={data.id}>
                                         <motion.div variants={card} initial="initial" whileInView="animate" className="food">
                                             <div className="pic">
                                                 <img src={data.image} alt={data.name} />
@@ -123,7 +123,7 @@ function Card() {
                         <Case condition={selected == 3}>
                             {data.filter(data => data.category == "Hamburger").map((data) => {
                                 return (
-                                    <div className="col-12 col-md-3 my-2 pt-3" key={data.id}>
+                                    <div className="col-12 col-md-3 col-lg-4 pt-3" key={data.id}>
                                         <motion.div variants={card} initial="initial" whileInView="animate" className="food">
                                             <div className="pic">
                                                 <img src={data.image} alt={data.name} />
@@ -142,7 +142,7 @@ function Card() {
                         <Case condition={selected == 4}>
                             {data.filter(data => data.category == "Pizze").map((data) => {
                                 return (
-                                    <div className="col-12 col-md-3 my-2 pt-3" key={data.id}>
+                                    <div className="col-12 col-md-3 col-lg-4 pt-3" key={data.id}>
                                         <motion.div variants={card} initial="initial" whileInView="animate" className="food">
                                             <div className="pic">
                                                 <img src={data.image} alt={data.name} />
@@ -161,7 +161,7 @@ function Card() {
                         <Case condition={selected == 5}>
                             {data.filter(data => data.category == "Desserts").map((data) => {
                                 return (
-                                    <div className="col-12 col-md-3 my-2 pt-3" key={data.id}>
+                                    <div className="col-12 col-md-3 col-lg-4 pt-3" key={data.id}>
                                         <motion.div variants={card} initial="initial" whileInView="animate" className="food">
                                             <div className="pic">
                                                 <img src={data.image} alt={data.name} />
@@ -180,7 +180,7 @@ function Card() {
                         <Case condition={selected == 6}>
                             {data.filter(data => data.category == "Bevande").map((data) => {
                                 return (
-                                    <div className="col-12 col-md-3 my-2 pt-3" key={data.id}>
+                                    <div className="col-12 col-md-3 col-lg-4 pt-3" key={data.id}>
                                         <motion.div variants={card} initial="initial" whileInView="animate" className="food">
                                             <div className="pic">
                                                 <img src={data.image} alt={data.name} />

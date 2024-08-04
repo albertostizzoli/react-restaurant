@@ -44,7 +44,7 @@ function Header() {
         <div className="header">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-md-6 text-left">
+                    <div className="col-12 col-md-6 text-left">
                         {/* Contenitore del testo animato */}
                         <motion.div className="text d-flex flex-column justify-content-center" variants={text} initial="initial" whileInView="animate">
                             <h1>PEPPERONE</h1>

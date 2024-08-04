@@ -23,13 +23,13 @@ function Footer() {
 
     return (
         // Contenitore principale del footer con animazione condizionale basata sulla visibilità
-        <motion.div initial="initial" whileInView="animate" variants={title} className="footer container-fluid">
+        <motion.div initial="initial" whileInView="animate" variants={title} className="footer container">
             <h2>CONTATTI</h2>
             <div className="row text-start">
                 <div className="col-12 col-md-4 mt-5">
                     <ul>
                         <li><h6>CONTATTACI</h6></li>
-                        <li>INDIRIZZO: Via Giulio Cesare 12</li>
+                        <li>INDIRIZZO: Via Garofoli 13</li>
                         <li>MAIL: pepperone@example.com</li>
                         <li>TELEFONO: 555-123456</li>
                     </ul>

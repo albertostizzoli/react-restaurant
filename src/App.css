@@ -15,6 +15,10 @@ html{
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body{
   background: linear-gradient(180deg, rgb(208, 0, 0), rgba(255, 186, 8, 0.8));
 }
@@ -23,7 +27,7 @@ body{
 a{
   text-decoration: none !important;
   color: inherit !important;
-} 
+}
 
 /* PALETTE */
 
@@ -53,5 +57,4 @@ a{
   background: linear-gradient(180deg, rgb(208, 0, 0), rgba(255, 186, 8, 0.8));
   border-radius: 20px;
 }
-
 
