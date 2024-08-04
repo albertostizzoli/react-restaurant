@@ -30,7 +30,7 @@ function Footer() {
                     <ul>
                         <li><h6>CONTATTACI</h6></li>
                         <li>INDIRIZZO: Via Garofoli 13</li>
-                        <li>MAIL: pepperone@example.com</li>
+                        <li>MAIL: dolcevita@example.com</li>
                         <li>TELEFONO: 555-123456</li>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@ function Footer() {
                     <ul>
                         <li><h6>LINKS</h6></li>
                         <li>Home</li>
-                        <li>Chi Siamo</li>
+                        <li>Noi</li>
                         <li>Menu</li>
                         <li>Contatti</li>
                     </ul>
