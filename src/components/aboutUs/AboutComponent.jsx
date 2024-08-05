@@ -79,7 +79,7 @@ function About() {
                     <div className="col-12 col-md-6 about-text d-flex flex-column justify-content-center gap-2">
                         {/* Paragrafo */}
                         <motion.p variants={paragraph} initial="initial" whileInView="animate">
-                            Benvenuti a La Dolce Vita, un luogo dove tradizione e gusto si incontrano. 
+                            Benvenuti al Pepperone, un luogo dove tradizione e gusto si incontrano. 
                             Offriamo una vasta selezione di pizze cotte nel forno a legna, utilizzando solo ingredienti freschi e di alta qualità. Il nostro menù comprende anche piatti unici di Hamburger, preparati con cura e passione. L'ambiente accogliente e spazioso è perfetto per cene in famiglia, incontri tra amici e occasioni speciali. Venite a trovarci per vivere un'esperienza culinaria indimenticabile, all'insegna del buon cibo e della convivialità.
                         </motion.p>
                     </div>

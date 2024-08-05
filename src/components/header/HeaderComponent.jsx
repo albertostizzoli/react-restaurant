@@ -47,7 +47,7 @@ function Header() {
                     <div className="col-12 col-md-6 text-left">
                         {/* Contenitore del testo animato */}
                         <motion.div className="text d-flex flex-column justify-content-center" variants={text} initial="initial" whileInView="animate">
-                            <h1>LA DOLCE VITA</h1>
+                            <h1>PEPPERONE</h1>
                             <h2>Ristorante & Pizzeria & Cafè</h2>
                             {/* Bottone animato */}
                             <motion.div className="buttons pt-2" variants={text}>
