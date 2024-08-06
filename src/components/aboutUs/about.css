@@ -1,6 +1,7 @@
 .about {
-    margin-top: 60px;
+    padding-top: 50px;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .about h1 {
@@ -35,17 +36,24 @@
 }
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
 
-    .image{
+    .image {
         margin-top: 20px;
     }
 
-    .about-text{
+    .img-block {
+        height: 150px;
+        width: 250px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .about-text {
         padding-top: 20px;
     }
 
-    .about-text p{
+    .about-text p {
         text-align: center;
     }
 
